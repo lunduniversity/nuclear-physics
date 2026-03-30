@@ -1,10 +1,4 @@
 
-## Publishing under Lund University
-
-I submitted a request asking whether this public JupyterLite course page may be hosted under Lund University's GitHub Pages site:
-
-[Issue #4 in `lunduniversity/lunduniversity.github.io`](https://github.com/lunduniversity/lunduniversity.github.io/issues/4)
-
 ## Documentation for a JupyterLite Course Page for Neutron Lab in Nuclear Physics 
 
 This notebook provides openly accessible teaching material and browser-based notebooks that the students can use without installing a local Python environment.
@@ -15,6 +9,41 @@ This notebook provides openly accessible teaching material and browser-based not
 Link to Notebook hosted on GitHub pages:
 [Access To Notebook](https://lunduniversity.github.io/nuclear-physics/lab/index.html)
 
+After opening the notebook page, put your data files in the `neutron_data` folder.
+
+
+## Repository structure 
+```text
+nuclear-physics/
+├── .github/
+│   ├── workflows/
+│   │   └── deploy.yml
+│   └── build-environment.yml
+├── content/
+│   ├── Neutron_data/    <---------------- Put your data files here after opening the notebook link above
+│   ├── python_files/
+│   └── FYSC22+FAFF11_student_version.ipynb
+├── .gitignore
+├── .nojekyll
+├── README.md
+├── environment.yml
+└── jupyter_lite_config.json
+
+```
+
+
+---
+
+# 🚫 STAFF-ONLY INFORMATION BELOW
+
+> [!CAUTION]
+> Everything below this point is intended for employees and teaching assistants only.
+> Students do not need the information below.
+
+---
+
+<details>
+  <summary><strong>Click to expand staff-only documentation</strong></summary>
 ## How the course page works
 
 The JupyterLite page allows students to open the course notebooks directly in a web browser. The course material is published as part of the deployed site, which makes the notebooks and supporting files available to all the students. (Deployment here means that after GitHub Actions builds the JupyterLite site, the result is uploaded to GitHub Pages and made available through the public notebook link - see below for more information on github actions and pages)
@@ -38,8 +67,6 @@ The repository was created from the [jupyterlite/xeus-lite-demo](https://github.
 > [!NOTE]
 > The setup is based on [**xeus**](https://github.com/jupyter-xeus/xeus),  a library for implementing Jupyter kernels. It manages much of the Jupyter Kernel Protocol, which allows developers to focus on the interpreter itself rather than the communication layer. Several Jupyter kernels are built on xeus, including **xeus-cling** for C++ and **xeus-python** for Python.
 > For more background, see: [xeus-lite: Jupyter kernels in the browser](https://blog.jupyter.org/xeus-lite-379e96bb199d)
-
-
 
 
 
@@ -134,28 +161,10 @@ The screenshot below shows an example where the deployment is still in progress.
 **GitHub Pages** is GitHub's static website hosting service. It can publish a website directly from a GitHub repository.
 GitHub Pages is used here to host the generated JupyterLite site so that students can open it through a normal web link.
 
-
+</details>
 
 </details>
 
-```text
-FYSC22-FYD14-FKFN20F---Nuclear-Physics/
-├── .github/
-│   ├── workflows/
-│   │   └── deploy.yml
-│   └── build-environment.yml
-├── content/
-│   ├── Neutron_data/
-│   ├── python_files/
-│   ├── FYSC22+FAFF11_instructor_version.ipynb
-│   └── FYSC22+FAFF11_student_version.ipynb
-├── .gitignore
-├── .nojekyll
-├── README.md
-├── environment.yml
-└── jupyter_lite_config.json
-
-```
 
 
 
