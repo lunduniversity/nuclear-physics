@@ -30,6 +30,7 @@ This page provides a browser-based notebook without any installation required.
 
 <details>
   <summary><strong>Click to expand staff-only documentation</strong></summary>
+  
 ## How the course page works
 
 The JupyterLite page allows students to open the course notebooks directly in a web browser. The course material is published as part of the deployed site, which makes the notebooks and supporting files available to all the students. (Deployment here means that after GitHub Actions builds the JupyterLite site, the result is uploaded to GitHub Pages and made available through the public notebook link - see below for more information on github actions and pages)
