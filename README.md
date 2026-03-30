@@ -4,32 +4,19 @@
 This notebook provides openly accessible teaching material and browser-based notebooks that the students can use without installing a local Python environment.
 
 
-## How to use:
+<h2>Open the Notebook</h2>
 
-Link to Notebook hosted on GitHub pages:
-[Access To Notebook](https://lunduniversity.github.io/nuclear-physics/lab/index.html)
+<p><strong>Click below to open the browser-based notebook:</strong></p>
 
-After opening the notebook page, put your data files in the `neutron_data` folder.
+<p>
+  <a href="https://lunduniversity.github.io/nuclear-physics/lab/index.html"><strong>Open the JupyterLite Notebook</strong></a>
+</p>
+
+<p>After opening the notebook, place your data files in the <code>neutron_data</code> folder.</p>
 
 
-## Repository structure 
-```text
-nuclear-physics/
-├── .github/
-│   ├── workflows/
-│   │   └── deploy.yml
-│   └── build-environment.yml
-├── content/
-│   ├── Neutron_data/    <---------------- Put your data files here after opening the notebook link above
-│   ├── python_files/
-│   └── NOTEBOOK_STUDENTS.ipynb
-├── .gitignore
-├── .nojekyll
-├── README.md
-├── environment.yml
-└── jupyter_lite_config.json
 
-```
+
 
 
 ---
@@ -162,6 +149,25 @@ The screenshot below shows an example where the deployment is still in progress.
 GitHub Pages is used here to host the generated JupyterLite site so that students can open it through a normal web link.
 
 </details>
+
+## Repository structure 
+```text
+nuclear-physics/
+├── .github/
+│   ├── workflows/
+│   │   └── deploy.yml
+│   └── build-environment.yml
+├── content/
+│   ├── Neutron_data/    <---------------- Put your data files here after opening the notebook link above
+│   ├── python_files/
+│   └── NOTEBOOK_STUDENTS.ipynb
+├── .gitignore
+├── .nojekyll
+├── README.md
+├── environment.yml
+└── jupyter_lite_config.json
+
+```
 
 </details>
 
