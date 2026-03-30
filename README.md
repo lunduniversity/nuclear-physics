@@ -13,7 +13,7 @@ This notebook provides openly accessible teaching material and browser-based not
 ## How to use:
 
 Link to Notebook hosted on GitHub pages:
-[Access To Notebook](https://lunduniversity/lunduniversity.github.io/FYSC22-FYD14-FKFN20F---Nuclear-Physics/lab/index.html)
+[Access To Notebook](https://lunduniversity.github.io/nuclear-physics/lab/index.html)
 
 ## How the course page works
 
