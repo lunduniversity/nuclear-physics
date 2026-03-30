@@ -22,7 +22,7 @@ nuclear-physics/
 ├── content/
 │   ├── Neutron_data/    <---------------- Put your data files here after opening the notebook link above
 │   ├── python_files/
-│   └── FYSC22+FAFF11_student_version.ipynb
+│   └── NOTEBOOK_STUDENTS.ipynb
 ├── .gitignore
 ├── .nojekyll
 ├── README.md
