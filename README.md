@@ -1,8 +1,7 @@
 
 ## Documentation for a JupyterLite Course Page for Neutron Lab in Nuclear Physics 
 
-This notebook provides openly accessible teaching material and browser-based notebooks that the students can use without installing a local Python environment.
-
+This page provides a browser-based notebook without any installation required.
 
 <h2>Open the Notebook</h2>
 
